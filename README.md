@@ -2,14 +2,7 @@
 
 ### install rasa in post
 
-after install anaconda ,we use anaconda promt
-
-```
-conda create -n chat_bot python=3.8
-```
-```
-conda activate chat_bot
-```
+with python 3.8
 ```
 pip install rasa
 
@@ -25,7 +18,7 @@ It very easy ^_^ .it's you lucky.
 
 It has many problem when you install if you don't enough lucky
 
-### Now fix all problem when we install 
+### Now fix all problem when i install on anaconda environment
 - step 1 : this error by tf is err 
 ```
 conda create -n tro_ly python=3.8
@@ -88,4 +81,21 @@ pip install numpy=1.18.5
 
 rasa train
 ```
+NOW,this train demo
+
 ![trainingok](https://user-images.githubusercontent.com/61773507/134267340-84937703-3fb3-4fac-ad6b-24ea303df9e8.jpg)
+
+This is trainning complete
+
+![traincomplete](https://user-images.githubusercontent.com/61773507/134267555-25063adf-3476-4f9a-9b15-9ba5d4c520c2.jpg)
+
+### test with demo trainning now
+ ```
+ rasa shell
+ ```
+ 
+ ![testdemo](https://user-images.githubusercontent.com/61773507/134267925-e8694b84-dd27-49ec-af2b-d94b05b8f5b9.jpg)
+
+you can see it very bad.you must fix all in data train for your need
+
+### 
