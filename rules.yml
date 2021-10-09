@@ -1,0 +1,8 @@
+version: "2.0"
+
+rules:
+
+- rule: nói "tạm biệt" khi khách hàng nói tạm biệt
+  steps:
+  - intent: tạm biệt
+  - action: utter_tạm_biệt

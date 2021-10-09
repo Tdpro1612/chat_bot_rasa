@@ -1,0 +1,74 @@
+version: "2.0"
+
+nlu:
+- intent: chào hỏi
+  examples: |
+    - hey
+    - hello
+    - hi
+    - chào em
+    - good morning
+    - good evening
+    - chào
+    - chào chị
+    - chào anh
+    - chào bot
+    - chào bạn
+    - good afternoon
+
+- intent: tạm biệt
+  examples: |
+    - bye
+    - bye bye
+    - xong,cảm ơn nhé
+    - good bye
+    - xong,cảm ơn nhiều
+
+- intent: tư vấn ăn gì
+  examples: |
+    - tư vấn giúp anh sáng nay ăn gì với
+    - hôm nay anh ăn gì đây
+    - trưa nay nên ăn gì nhỉ
+    - tư vấn anh nên chọn món gì đây
+    - giờ ăn gì nhỉ
+    - giới thiệu anh vài món trưa ăn với
+
+- intent: đổi món đi em
+  examples: |
+    - hôm nay,anh không thích lắm,đổi đi em
+    - đổi món khác em
+    - anh bị đau họng,không ăn được món này
+    - hôm nay không phải rằm,mùng 1 không ăn được em ạ
+    - No
+
+- intent: duyệt món này
+  examples: |
+    - tuyệt vời
+    - được đó
+    - chọn nó nhé
+    - duyệt
+    - ok, duyệt nó
+    - ok, duyệt thôi
+
+- intent: buồn chán
+  examples: |
+    - chán quá em ơi
+    - hôm nay anh buồn quá
+    - buồn chán quá
+    - ngày hôm nay tệ quá
+    - chán quá làm gì nhỉ
+
+- intent: cảm ơn
+  examples: |
+    - em giỏi quá
+    - cảm ơn em nhiều
+    - cảm ơn em nhiều nhé
+    - không ngờ em giỏi thật đấy
+    - ok,thank em
+    - ok,thank em nhiều
+
+- intent: sinh nhật
+  examples: |
+    - hôm nay sinh nhật anh nè
+    - sinh nhật anh nè em
+    - hôm nay sinh nhật anh em ơi

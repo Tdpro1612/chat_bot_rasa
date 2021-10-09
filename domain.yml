@@ -1,0 +1,61 @@
+version: "2.0"
+
+intents:
+  - chào hỏi
+  - tư vấn ăn gì
+  - duyệt món này
+  - đổi món đi em
+  - sinh nhật
+  - buồn chán
+  - cảm ơn
+  - tạm biệt
+
+responses:
+  utter_chào_hỏi:
+  - text: "xin chào!em là Tiêu Linh,em có thể giúp gì cho anh/chị ạ?"
+
+  utter_tư_vấn_ăn_gì:
+  - text: "đây là mì quảng:"
+    image: "https://user-images.githubusercontent.com/61773507/134831461-9f602e31-855b-4c5d-b9cb-c4f16234205d.jpg"
+  - text: "đây là bánh mì"
+    image: "https://user-images.githubusercontent.com/61773507/134831545-c6c9eed5-7642-4a87-9ddc-8b1834df9375.jpg"
+  - text: "đây là cơm chiên"
+    image: "https://user-images.githubusercontent.com/61773507/134831644-493712f0-07a2-4986-bf4b-ba1289b2929b.png"
+  - text: "đây là bánh ướt"
+    image: "https://user-images.githubusercontent.com/61773507/134831782-acc20e2d-5a07-47cf-b333-4657e93c6a80.jpg"
+  - text: "đây là bánh bèo"
+    image: "https://user-images.githubusercontent.com/61773507/134831924-5fa95491-3c13-44ac-8222-671437c83705.jpg"
+  - text: "đây là cháo"
+    image: "https://user-images.githubusercontent.com/61773507/134832049-0f7f0ee0-1265-4f48-bbb5-d24ed16798a4.jpg"
+  - text: "đây là bún bò"
+    image: "https://user-images.githubusercontent.com/61773507/134832200-90bf6ca4-02f5-45fd-9b77-1b0116404d8d.jpg"
+
+  utter_duyệt_món_này:
+  - text: "vậy chốt nó nhé."
+
+  utter_đổi_món_đi_em:
+  - text: "ok,anh đợi em tý,em đổi"
+
+  utter_sinh_nhật:
+  - text: "quà tặng cho anh nè"
+    image: "https://user-images.githubusercontent.com/61773507/134832345-abd41095-c013-45d1-9e6a-f52dfb000032.gif : https://www.youtube.com/watch?v=64uYDyrnXsM"
+
+  utter_buồn_chán:
+  - text: "anh có thể nghe nhạc này: https://www.youtube.com/watch?v=VKblxpxZDzQ"
+  - text: "anh có thể xem truyện này: https://thamtu-conan.blogspot.com/"
+  - text: "anh có thể xem phim này: https://www.youtube.com/watch?v=6haKRfxGOvo"
+
+  utter_cảm_ơn:
+  - text: "anh quá khen ạ"
+  - text: "cảm ơn a nhiều ạ"
+  - text: "hihi,anh cứ nói quá"
+
+  utter_tạm_biệt:
+  - text: "tạm biệt anh,cảm ơn anh đã đến"
+  - text: "tạm biệt anh,chúc anh nhiều sức khỏe "
+  - text: "tạm biệt anh,chúc anh nhiều niềm vui"
+  - text: "tạm biệt anh,chúc anh nhiều may mắn"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

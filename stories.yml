@@ -1,0 +1,53 @@
+version: "2.0"
+
+stories:
+
+- story: chào hỏi
+  steps:
+  - intent: chào hỏi
+  - action: utter_chào_hỏi
+  - intent: tạm biệt
+  - action: utter_tạm_biệt
+
+- story: ăn sáng
+  steps:
+  - intent: chào hỏi
+  - action: utter_chào_hỏi
+  - intent: tư vấn ăn gì
+  - action: utter_tư_vấn_ăn_gì
+  - intent: duyệt món này
+  - action: utter_duyệt_món_này
+  - intent: cảm ơn
+  - action: utter_cảm_ơn
+
+- story: sinh nhật
+  steps:
+  - intent: chào hỏi
+  - action: utter_chào_hỏi
+  - intent: sinh nhật
+  - action: utter_sinh_nhật
+  - intent: cảm ơn
+  - action: utter_cảm_ơn
+  - intent: tạm biệt
+  - action: utter_tạm_biệt
+
+- story: ăn trưa
+  steps:
+  - intent: chào hỏi
+  - action: utter_chào_hỏi
+  - intent: tư vấn ăn gì
+  - action: utter_tư_vấn_ăn_gì
+  - intent: đổi món đi em
+  - action: utter_đổi_món_đi_em
+  - action: utter_tư_vấn_ăn_gì
+  - intent: cảm ơn
+  - action: utter_cảm_ơn
+
+- story: buồn chán
+  steps:
+  - intent: chào hỏi
+  - action: utter_chào_hỏi
+  - intent: buồn chán
+  - action: utter_buồn_chán
+  - intent: cảm ơn
+  - action: utter_cảm_ơn
