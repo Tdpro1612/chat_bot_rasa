@@ -106,9 +106,10 @@ you can see it very bad.you must fix all in data train for your need
 you must think about story you want then cut it and get some small stories to train 
  example : i want to my bot have recommend the food and happy my birth day
  i change some file 
- -
- -
- -
- -
- -
+ - first is file domain.yml this have all utter you want the bot answer you ask in the intent
+ - second is file nlu.yml this have all intent you want to ask the bot
+ - third is file stories.yml this have all small stories you cut from the story
+ - the fourth is the test_stories.yml it have the same stories.yml
+ - the five is rule.yml this is exception, condition
+ - final config.yml the model you chose, you can default,but i don't recommend,i think you should use SpacyNLP
  
