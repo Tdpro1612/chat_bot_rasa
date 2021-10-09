@@ -39,7 +39,7 @@ cd trolyao
 pip install rasa
 
 rasa init
-#then enter when this ask you directory to save rasa in D:/trolyao if you don't want to save in this you can change directory 
+# then enter when this ask you directory to save rasa in D:/trolyao if you don't want to save in this you can change directory 
 # when you install done,this ask you train demo and you y(yes)  this can be problem 
 ```
 ![trolyao2](https://user-images.githubusercontent.com/61773507/134265190-5928b69c-6718-4806-b769-46d473aa103b.jpg)
@@ -52,7 +52,7 @@ rasa init
 
 pip uninstall tensorflow
 
-conda uninstall tensorflow
+conda install tensorflow
 
 # after you fix tf error, you demo train rasa with code
 
@@ -66,7 +66,10 @@ rasa train
 pip uninstall h5py
 
 pip install h5py
+
+# after you reinstall h5py,some recomment about some version is red.don't worry,ignore it. because pip and anaconda is different
 ```
+
 
 - Yes,the next error is numpy 
 
