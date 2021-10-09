@@ -67,7 +67,7 @@ pip uninstall h5py
 
 pip install h5py
 
-# after you reinstall h5py,some recomment about some version is red.don't worry,ignore it. because pip and anaconda is different
+# after you reinstall h5py,some recommend about some version is red.don't worry,ignore it. because pip and anaconda is different
 ```
 
 
@@ -101,4 +101,14 @@ This is trainning complete
 
 you can see it very bad.you must fix all in data train for your need
 
-### 
+# Install rasa with VietNamese
+
+you must think about story you want then cut it and get some small stories to train 
+ example : i want to my bot have recommend the food and happy my birth day
+ i change some file 
+ -
+ -
+ -
+ -
+ -
+ 
