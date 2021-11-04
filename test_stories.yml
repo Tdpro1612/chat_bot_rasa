@@ -1,0 +1,91 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: chào hỏi 1
+  steps:
+  - user: |
+      chào chị
+    intent: chào hỏi
+  - action: utter_chào_hỏi
+  - user: |
+      tạm biệt
+    intent: tạm biệt
+  - action: utter_tạm_biệt
+
+- story: ăn sáng 1
+  steps:
+  - user: |
+      xin chào
+    intent: chào hỏi
+  - action: utter_chào_hỏi
+  - user: |
+      sáng nay có món gì em
+    intent: tư vấn ăn gì
+  - action: utter_tư_vấn_ăn_gì
+  - user: |
+      ukm,cảm ơn em
+    intent: cảm ơn
+  - action: utter_cảm_ơn
+  - action: utter_tạm_biệt
+
+- story: buồn chán 1
+  steps:
+  - user: |
+      chào em
+    intent: chào hỏi
+  - action: utter_chào_hỏi
+  - user: |
+      hôm nay sinh nhật anh này
+    intent: sinh nhật
+  - action: utter_sinh_nhật
+  - user: |
+      cảm ơn em nhiều nhé
+    intent: cảm ơn
+  - action: utter_cảm_ơn
+  - action: utter_tạm_biệt
+ 
+- story: buồn chán 2
+  steps:
+  - user: |
+      chán quá em ơi
+    intent: buồn chán
+  - action: utter_buồn_chán
+  - user: |
+      ukm,thank you em nhiều
+    intent: cảm ơn
+  - action: utter_cảm_ơn
+  - user: |
+      có gì ngon,giới thiệu anh ăn với
+    intent: tư vấn ăn gì
+  - action: utter_tư_vấn_ăn_gì
+
+- story: ăn gì 3
+  steps:
+  - user: |
+      hi
+    intent: chào hỏi
+  - action: utter_chào_hỏi
+  - user: |
+      bữa nay ăn gì em
+    intent: tư vấn ăn gì
+  - action: utter_tư_vấn_ăn_gì
+    - user: |
+      no,đổi món đi em
+    intent: đổi món đi em
+  - action: utter_đổi_món_đi_em
+  - action: utter_tư_vấn_ăn_gì
+
+- story: tạm biệt
+  steps:
+  - user: |
+      bye! em nhé
+    intent: tạm biệt
+  - action: utter_tạm_biệt
+
+- story: bot giỏi quá
+  steps:
+  - user: |
+      em giỏi thật đấy
+    intent: cảm ơn
+  - action: utter_cảm_ơn
